@@ -1,0 +1,116 @@
+.main_page {
+   display: flex;
+   margin-left: 80px;
+}
+
+
+body {
+  background-color: rgb(250, 250, 250);
+  /* margin-left: 700px; */
+}
+
+.border {
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  height: 450;
+  width: 350px;
+  text-align: center;
+  padding: 25px;
+  margin-left: 50px;
+}
+
+.sign_up {
+  color: rgb(155, 155, 155);
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.facebook {
+  background-color: rgb(56, 151, 240);
+  border: 1px transparent;
+  border-radius: 4px;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 5px 9px;
+  text-align: center;
+  text-transform: inherit;
+  text-overflow: ellipsis;
+  user-select: none;
+  width: auto;
+  font-size: 14px;
+  line-height: 18px;
+  text-rendering: auto;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 15;
+  margin-bottom: 10px;
+}
+
+.main1 {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border: 1px solid rgb(219, 215, 215);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 75px;
+  margin-top: 10px;
+}
+
+.main1 input {
+  width: 100%;
+}
+
+.sign_up2 {
+  background-color: rgb(56, 151, 240);
+  border: 1px transparent;
+  border-radius: 4px;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 5px 9px;
+  text-align: center;
+  text-transform: inherit;
+  text-overflow: ellipsis;
+  user-select: none;
+  width: auto;
+  font-size: 14px;
+  line-height: 18px;
+  text-rendering: auto;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 15;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.log_in {
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  width: 400px;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.log_in_text {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 100;
+}
+
+p {
+    text-align: center;
+}
+
+ul li {
+  color: blue;
+  display: inline-block;
+  text-align: center;
+}
